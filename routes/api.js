@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var apiUsersRouter = require('./apiUsers');
+var apiUsers = require('./apiusers');
 // Parent-level middleware
 router.use(function(req, res, next) {
  console.log('Parent API Middleware');
